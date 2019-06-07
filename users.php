@@ -1,5 +1,6 @@
 <?
 	// connect database
+	// test comment
 	include("config/connect.php");
 
 	$db -> select("SELECT * FROM user_info ORDER BY user_id DESC");
